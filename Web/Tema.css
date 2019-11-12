@@ -1,0 +1,12 @@
+.p1{
+	Border:2px solid black;
+}
+.p2{
+	Border:2px solid black;border-style: dashed;
+}
+.p3{
+	Border:2px solid black;border-style: dotted;
+}
+.p4{
+	Border:2px solid black;border-style: none;
+}
