@@ -10,3 +10,15 @@
 .p4{
 	Border:2px solid black;border-style: none;
 }
+#h1{
+	Border:2px solid green;
+}
+#h2{
+	Border:2px solid black;
+}
+#h3{
+	Border:2px solid yellow;
+}
+#h4{
+	Border:2px solid purple;
+}
