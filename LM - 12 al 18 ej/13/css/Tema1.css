@@ -17,7 +17,7 @@ table{
 width:100%;
 border:1px solid black;
 background-color:#6d8a7e;
-animation: arcoiris 2s infinite;
+animation: arcoiris 5s infinite;
 }
 body{
 	background-color:#edede4;
@@ -38,9 +38,9 @@ p{
 
 @keyframes arcoiris{
   0%{ background-color:red;width:100%;}
-  30% {background-color:green;width:80%;}
-  68%{ background-color:blue;width:60%;}
-  70%{background-color:yellow;width:50%;}
+  30% {background-color:green;}
+  50%{ background-color:blue;width:60%;}
+  70%{background-color:yellow;}
   100% { background-color:red;width:100%;}
 }
 
