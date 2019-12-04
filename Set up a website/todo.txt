@@ -1,0 +1,4 @@
+TODO:
+info about :HTML, HTML5, SVG,CSS.
+Paginas diferentes de cada :HTML, HTML5 and SVG) or properties (for CSS)
+y un pdf de cada web
