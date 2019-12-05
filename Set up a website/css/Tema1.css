@@ -7,6 +7,10 @@ body.h{
 	background-color:#1e1e20;
 	color:white;
 }
+p{
+	font-family:monospace;
+	
+}
  .ss{
 		float: left;
 }
@@ -117,6 +121,13 @@ a.ba{
 	color:black;
 	font-family:monospace;
 	font-size:16px;
+	margin-top:-8px;
+	}
+p.ba{
+	margin-top:-2px;
+	margin-bottom:-12px;
+	padding-bottom:-4px;
+	
 }
 h2.ha{
 	margin-bottom:-12px;
