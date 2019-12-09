@@ -7,9 +7,11 @@ body.h{
 	background-color:#1e1e20;
 	color:white;
 }
-p{
-	font-family:monospace;
-	
+ol{
+	margin-left:30%;
+}
+li{
+	text-align:left;
 }
  .ss{
 		float: left;
@@ -22,6 +24,9 @@ display: inline-block;
 			margin-bottom:4px;
 			margin-top:4px;
 			
+}
+div.historia{
+	text-align:left;
 }
 div.tituloz{
 margin:-8px;
@@ -44,6 +49,8 @@ hr{
 }
 pre{
 	font-size:16px;
+	text-align:left;
+	margin-left:30%;
 	
 }
 div.box{
@@ -121,13 +128,6 @@ a.ba{
 	color:black;
 	font-family:monospace;
 	font-size:16px;
-	margin-top:-8px;
-	}
-p.ba{
-	margin-top:-2px;
-	margin-bottom:-12px;
-	padding-bottom:-4px;
-	
 }
 h2.ha{
 	margin-bottom:-12px;

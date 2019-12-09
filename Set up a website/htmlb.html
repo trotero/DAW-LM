@@ -4,16 +4,97 @@
 <title> Set up a website! -- Web4U </title>
 </head>
 <body class="h">
-<h1 class="titulo"> Bienvenido al Lenguaje de etiquetas</h1>
-<p> Bienvenido a mi web, aqui encontraras breves definiciones de HTML, SVG y CSS. </p>
-<pre> Si quisieras entrar en profundidad en cualquiera de estos mencionado anteriormente,
- siempre podrás acceder al menú de arriba o en los siguientes apartados de la pagina.
- </pre>
-<ol class="lista">
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<div class="tituloz"><h1 class="titulo">C:\Bienvenido al HTML&gt </h1><p class="s">_</p></div>
+<center><h1 class="titulo"> HTML </h1></center>
+<center><p> Aqui encontraras como adentrarte en este lenguaje de etiquetas </p></center>
+<hr>
+<center><h1 class="titulo">Historia</h1><center>
+<pre>El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, trabajador del CERN
+propuso un nuevo sistema de "hipertexto" para compartir documentos.
+Tras finalizar el desarrollo de su sistema de "hipertexto",
+Tim Berners-Lee lo presentó a una convocatoria organizada para crear un sistema de "hipertexto" para Internet.
+Después de unir sus fuerzas con el ingeniero de sistemas Robert Cailliau,
+presentaron la propuesta ganadora llamada WorldWideWeb (W3). </pre>
+<a href="https://uniwebsidad.com/libros/xhtml/capitulo-1/breve-historia-de-html">(+ info)</a>
+<hr>
+<center><h1 class="titulo"> EJEMPLO DE HTML </h1></center>
+<!--Aqui empieza el ejmplo -->
+<textarea rows="10" cols="50">
+&#60;html&#62;
+&#60;head&#62;
+&#60;link rel="stylesheet" href="css/Tema1.css"&#62;
+&#60;title&#62; Set up a website! -- Web4U &#60;/title&#62;
+&#60;/head&#62;
+&#60;body class="h"&#62;
+&#60;div class="tituloz"&#62;&#60;h1 class="titulo"&#62;C:\Bienvenido a la pagina inicial&gt &#60;/h1&#62;&#60;p class="s"&#62;_&#60;/p&#62;&#60;/div&#62;
+&#60;center&#62;&#60;h1 class="titulo"&#62; Bienvenido a mi web&#60;/h1&#62;&#60;/center&#62;
+&#60;center&#62;&#60;p&#62; Aqui encontraras breves definiciones de HTML, SVG y CSS. &#60;/p&#62;&#60;/center&#62;
+&#60;hr&#62;
+&#60;center&#62;
+&#60;pre&#62;
+En esta pagina web te proporcionaremos información de HTML de SVG y de CSS, la historia, algunos trucos y consejos,imagenes del codigo y programas para empezar tu proyecto.&#60;/pre&#62;&#60;/center&#62;
+&#60;hr&#62;
+&#60;center&#62;&#60;h1 class="titulo"&#62;
+Programas que usaremos
+&#60;/h1&#62;&#60;center&#62;
+&#60;p&#62; Notepad++ y Un navegador&#60;/p&#62;
+&#60;div class="box"&#62;
+&#60;img class="thumb" src="img/notepad.png"&#62;&#60;/img&#62;
+&#60;p&#62; Este es un programa que nos permite escribir en varios lenguajes pero &#60;strong&#62;NO&#60;/strong&#62; es un IDE &#60;/p&#62;
+&#60;/div&#62;
+&#60;div class="box"&#62;
+&#60;img class="thumb" src="img/opera.png"&#62;&#60;/img&#62;
+&#60;p&#62;Usaremos cualquier navegador que dispongamos a mano, no hace falta tener uno especifico&#60;/p&#62;
+&#60;/div&#62;
+&#60;br&#62;
+&#60;br&#62;
+&#60;hr&#62;
+&#60;center&#62;&#60;h1 class="titulo"&#62;Paginas de referencias
+&#60;/h1&#62;&#60;center&#62;
+&#60;p&#62; Siempre podéis buscar ayudas en las siguientes paginas en las otras no &#60;/p&#62;
+&#60;div class="box"&#62;
+&#60;img class="thumb" src="img/w3.png"&#62;&#60;/img&#62;
+&#60;a href="https://www.w3schools.com" class="ba"&#62; &#60;p&#62; w3School &#60;/p&#62; &#60;/a&#62;
+&#60;/div&#62;
+&#60;div class="box"&#62;
+&#60;img class="thumb" src="img/cheat.png"&#62;&#60;/img&#62;
+&#60;a href="https://htmlcheatsheet.com" class="ba"&#62; &#60;p&#62; HtmlCheatSheet &#60;/p&#62; &#60;/a&#62;
+&#60;/div&#62;
+&#60;/body&#62;
+&#60;/html&#62;
+</textarea>
+<p style="font-size:12px;"> Este sería un ejemplo de la pagina inicial para saber como está hecho. </p>
+<hr>
+<center><h1 class="titulo">Empezemos</h1><center>
+<pre> Si quieres empezar con HTML tienes que tener en cuenta las principales etiquetas
+tales como : </pre>
+<ol>
+<li>&#60; html &#62; Esta es la que guarda toda la pag. web</li>
+<li>&#60; head &#62; Esta es la que guarda etiquetas que se tienen que cargar rapido, como el favicon,style etc..</li>
+<li>&#60; body &#62; Esta sería la que guardaría todo el contenido </li>
 </ol>
+<hr>
+<center><h1 class="titulo"> Tu primer HTML</h1></center>
+<textarea rows="10" cols="75">
+Para empezar tu primer html tienes que crear un documento con la extensión de .html
+Despues  meter el codigo dentro del documento con cualquier editor de texto
+una vez dentro vamos a crear un documento de Hola mundo.
+Podríamos escribir simplemente hola mundo y al abrir el documento te saldría tal cual.
+pero vamos a aprender a usar alguna etiqueta mas como &#60;h1&#62; &#60;/h1&#62;
+*Siempre recuerda que si &#60;abres una etiqueta&#62;&#60;/la tienes que cerrar&#62;
+&#60;html&#62;
+&#60;head&#62;
+&#60;title&#62;
+Este es el titulo de la pagina
+&#60;/title&#62;
+&#60;/head&#62;
+&#60;body&#62;
+&#60;p&#62;
+Hola mundo esta dentro de una etiqueta de P que se refiere a parrafos
+&#60;/p&#62;
+&#60;/body&#62;
+&#60;/html&#62;
+</textarea>
+<p style="font-size:12px;"> Espero que les haya sido util </p>
 </body>
 </html>

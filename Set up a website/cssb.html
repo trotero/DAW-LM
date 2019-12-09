@@ -4,16 +4,188 @@
 <title> Set up a website! -- Web4U </title>
 </head>
 <body class="h">
-<h1 class="titulo"> Bienvenido a Lenguaje en cascada </h1>
-<p> Bienvenido a mi web, aqui encontraras breves definiciones de HTML, SVG y CSS. </p>
-<pre> Si quisieras entrar en profundidad en cualquiera de estos mencionado anteriormente,
- siempre podrás acceder al menú de arriba o en los siguientes apartados de la pagina.
- </pre>
-<ol class="lista">
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<div class="tituloz"><h1 class="titulo">C:\Bienvenido al CSS&gt </h1><p class="s">_</p></div>
+<center><h1 class="titulo"> CSS </h1></center>
+<center><p> Aqui encontraras como adentrarte en este lenguaje de Hojas de estilo en cascada </p></center>
+<hr>
+<center><h1 class="titulo">Historia</h1><center>
+<div class="historia">
+<pre>El organismo W3C (World Wide Web Consortium),
+encargado de crear todos los estándares relacionados con la web,
+propuso la creación de un lenguaje de hojas de estilos específico para el lenguaje HTML y se presentaron nueve propuestas.
+Las dos propuestas que se tuvieron en cuenta fueron la CHSS  y la SSP. </pre>
+</div>
+<a href="https://uniwebsidad.com/libros/css/capitulo-1/breve-historia-de-css">(+ info)</a>
+<hr>
+<center><h1 class="titulo"> EJEMPLO DE CSS </h1></center>
+<!--Aqui empieza el ejmplo -->
+<textarea rows="10" cols="50">
+body.a{
+	background-color:#021c1e;	 
+
+		
+}
+body.h{
+	background-color:#1e1e20;
+	color:white;
+}
+ol{
+	margin-left:30%;
+}
+li{
+	text-align:left;
+}
+ .ss{
+		float: left;
+}
+.s{
+display: inline-block;	
+	animation: letras 0.7s infinite;
+				font-family:monospace;
+			font-size:25px;
+			margin-bottom:4px;
+			margin-top:4px;
+			
+}
+div.historia{
+	text-align:left;
+}
+div.tituloz{
+margin:-8px;
+ width:101%;
+	background-color:black;
+	margin-bottom:12px;
+}
+.titulo{
+		padding-left:20px;
+				font-family:monospace;
+			font-size:25px;
+	display: inline-block;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+hr{
+	border:1px solid yellow;
+	margin-left:30%;
+	margin-right:30%;
+}
+pre{
+	font-size:16px;
+	text-align:left;
+	margin-left:30%;
+	
+}
+div.box{
+	font-family:monospace;
+	background-color:yellow;
+	color:black;
+	border:3px solid yellow;
+	border-radius:3px;
+	width:400px;
+	display: inline-block;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	margin-right:15px;
+		}
+.thumb{
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border:2px solid black;
+	background-color:white;
+	padding:3px;
+	float:left;
+	width:70;
+	height:70;
+}
+iframe{
+	margin-top:10px;
+	width:100.7%;
+	margin-left:-8px;
+	height:87%;
+	border:2px solid yellow;
+	overflow-x:hidden;
+	overflow-Y:hidden;
+
+}
+.menu{
+	color:white;
+	box-shadow: 0px 2px yellow;
+	margin:-8px;
+	padding-bottom:5px;
+	padding-left:7px;
+}
+button{
+	margin-bottom:-25px;
+	margin-top:8px;
+	padding:8px;
+	background-color:white;
+	font-family:monospace;
+	font-size:15px;
+	margin-right:-5px;
+}
+.bot {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #fdb965 5%, #f9df74 100%);
+	background-color:#f8ff89;
+	border:2px solid yellow;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.bot:hover {
+	background:linear-gradient(to bottom, #f2946b 5%, #ffcc89 100%);
+	background-color:#f2946b;
+}
+a.a{
+	color:white;
+	font-family:monospace;
+	font-size:16px;
+}
+a.ba{
+	color:black;
+	font-family:monospace;
+	font-size:16px;
+}
+h2.ha{
+	margin-bottom:-12px;
+	
+}
+@keyframes letras{
+  0%{font-family:monospace;color:white;}
+  43%{font-family:monospace;color:white;}
+  50%{font-family:monospace;color:black;}
+  75%{font-family:monospace;color:white;}
+  100%{font-family:monospace;color:white;}
+ 
+}
+
+</textarea>
+<p style="font-size:12px;"> Este sería el estilo que dispone toda la pagina web </p>
+<hr>
+<center><h1 class="titulo">Empezemos</h1><center>
+<pre>Si quieres empezar con CSS tienes que tener en cuenta las principales etiquetas a las que le
+quisieras poner un estilo tales como :  </pre>
+<ol>
+<li>body en esta etiqueta podemos poner el color de fondo por ejemplo</li>
+<li>div esto sirve para poner estilos concretos a un apartado en concreto </li>
 </ol>
+<hr>
+<center><h1 class="titulo"> Tu primer CSS</h1></center>
+<textarea rows="9" cols="75">
+body{
+background-color:black;
+color:white;
+}
+div{
+color:red;
+border:1px solid black;
+}
+</textarea>
+<p style="font-size:12px;"> Espero que les haya sido util </p>
 </body>
 </html>
