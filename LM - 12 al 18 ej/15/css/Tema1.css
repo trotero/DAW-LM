@@ -29,3 +29,10 @@ ins.a{
 	color:#38b6ff;
 	
 }
+td{
+	text-align:center;
+		border:2px solid black;
+}
+tr{
+	border:2px solid black;
+}
